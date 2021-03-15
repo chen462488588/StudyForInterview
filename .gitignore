@@ -1,1 +1,7 @@
 .idea
+out
+*.iml
+mvnw
+mvnw.cmd
+.*
+/mysql/.mvn/
