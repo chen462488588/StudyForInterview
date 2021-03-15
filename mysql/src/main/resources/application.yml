@@ -1,0 +1,28 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: mysql
+    datasource:
+        url: jdbc:mysql://192.168.2.250:3306/le
+        password: sonoscape
+        username: root
+    #        driver-class-name: com.mysql.jdbc.Driver
+    redis:
+        database: 9
+        host: 192.168.2.250
+        password: sonoscape
+        port: 6379
+        ssl: false
+        timeout: 5000 # Connection timeout.
+mybatis:
+    mapper-locations: classpath:mapping/*Mapper.xml
+    type-aliases-package: com.example.mysql.entity
+#showSql
+logging:
+    level:
+        com:
+            example:
+                mysql:
+                    mapper : info
+
