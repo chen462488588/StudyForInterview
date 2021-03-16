@@ -1,0 +1,12 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: redis
+    redis:
+        database: 10
+        host: 192.168.2.250
+        password: sonoscape
+        port: 6379
+        ssl: false
+        timeout: 10000 # Connection timeout.
