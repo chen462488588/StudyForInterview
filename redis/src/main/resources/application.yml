@@ -6,7 +6,6 @@ spring:
     redis:
         database: 10
         host: 192.168.2.250
-        password: sonoscape
-        port: 6379
+        port: 6380
         ssl: false
         timeout: 10000 # Connection timeout.
