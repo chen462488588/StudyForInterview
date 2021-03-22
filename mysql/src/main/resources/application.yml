@@ -1,5 +1,9 @@
 server:
     port: 8080
+    tomcat:
+        threads:
+            max: 5
+        max-connections: 5
 spring:
     application:
         name: mysql
